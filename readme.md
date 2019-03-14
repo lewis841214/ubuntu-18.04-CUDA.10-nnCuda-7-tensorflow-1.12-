@@ -38,7 +38,7 @@ pip install tensorflow-gpu keras # 安装 gpu 版本的 tensorflow 和 keras
 ```
 
 Then the installation should be complete,
-try running this file to find out whether the installation complete or not.
+try running this file on jupyter notebook to find out whether the installation complete or not.
 
 ```
 import tensorflow as tf
@@ -50,3 +50,4 @@ with tf.device('/gpu:0'):
 with tf.Session() as sess:
     print (sess.run(c))
 ```
+Any question please contact me (lewis841214@gmail.com) or come to room 639
