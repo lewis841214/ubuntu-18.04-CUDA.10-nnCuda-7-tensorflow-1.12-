@@ -13,25 +13,16 @@ we are going to install tensorflow, where tensorflow-gpu can't be installed on p
 so we should create a new environment with python 35
 
 ```
-conda create --name python35 python=3.5
-conda activate python35
+conda create --name py37 
+conda activate py37
 ```
-where the --name variable is depends on you, so you can change it like
-```
-conda create --name mylab python=3.5
-conda activate mylab
-```
-And after that, 
+In case you open jupyter notebook and find out that, 500 internal error
 type
 ```
-conda create --name mylab python=3.5
-conda activate mylab
+python3 -m pip install ipykernel
+python3 -m ipykernel install --user
 ```
-And now you'll see base changes to mylab
-```
-(base) lewis@ailab-830-ubuntu:~$ 
-(mylab) lewis@ailab-830-ubuntu:~$ 
-```
+
 And then, install tensorflow-gpu version and keras
 ```
 pip install tensorflow-gpu keras # 安装 gpu 版本的 tensorflow 和 keras
@@ -50,4 +41,5 @@ with tf.device('/gpu:0'):
 with tf.Session() as sess:
     print (sess.run(c))
 ```
-Any question please contact me (lewis841214@gmail.com) or come to room 639
+Well done!
+
