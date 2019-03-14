@@ -7,10 +7,7 @@ https://docs.conda.io/en/latest/miniconda.html
 chmod 775 Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh
 ```
-After that, you can try to open jupyter notebook,
-but no metter it's openable or not
-we are going to install tensorflow, where tensorflow-gpu can't be installed on python37,
-so we should create a new environment with python 35
+And then type
 
 ```
 conda create --name py37 
