@@ -1,6 +1,6 @@
 # Ubuntu-18.04 CUDA.10 nnCuda-7 tensorflow-1.13 installation
 
-# Ubuntu-18.04 CUDA.10 nnCuda-7 tensorflow-1.13 installation
+
 1. Goto miniconda website download miniconda linux python3.7 64-bit
 2. https://docs.conda.io/en/latest/miniconda.html
 3. open terminal and go to download folder and install miniconda
